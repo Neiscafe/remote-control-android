@@ -34,8 +34,8 @@ android {
         applicationId "com.hmdm.control"
         minSdkVersion 24
         targetSdkVersion 33
-        versionCode 2020
-        versionName "2.02"
+        versionCode 2030
+        versionName "2.03"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -86,9 +86,11 @@ dependencies {
 //    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.0'
 
     // Jackson
-    implementation 'com.fasterxml.jackson.core:jackson-core:2.15.2'
-    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.15.2'
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
+    // Notice: version 2.14 and above are not compatible with Android 7, so I left 2.13 here
+    // https://github.com/FasterXML/jackson-databind#compatibility
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.13.0'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.13.0'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
 
 //    implementation 'com.google.firebase:firebase-crashlytics:17.2.1'
 
