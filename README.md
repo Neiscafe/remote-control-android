@@ -16,6 +16,12 @@ Information about the usage of sensitive permissions could be found [here](https
 
 We believe it is now safe to use Headwind Remote as a base software for your projects. In the case of any problems with Google, please contact the [developer](https://h-mdm.com/contact-us/), we are ready to help.
 
+**WARNING: BEFORE UPLOADING APPS BASED ON HEADWIND REMOTE SOURCE CODE, CONTACT GOOGLE SUPPORT TO AVOID BLOCKING YOUR DEVELOPER ACCOUNT!**
+
+**Make sure your app is fully compliant with Google requirements for Accessibility apps: https://support.google.com/googleplay/android-developer/answer/10964491**
+
+**DISCLAIMER: Headwind team disclaims any responsibility for suspension of your apps and terminating of your Google accounts related to uploading apps based on Headwind Remote source code to Google Play.**
+
 ## Mobile device management
 
 The Headwind Remote project is sponsored by [Headwind MDM](https://h-mdm.com), the open source mobile device management system for Android. 
